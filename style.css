@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    display:inline-grid;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.watchingVideo {
+    flex-direction: column;
+}
+.watchingVideo img {
+    margin-top: 20px;
+}
+
+.descricaoVideo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+.videoActions img {
+    margin-right: 20px;
+}
+
+.visualizacoes {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+
+}
+
+.visualizacoesDescricao{
+    width: 35%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #515151;
+
+}
+
+
+.thumb {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.thumb img {
+    margin-right: 20px;
+}
+
+.thumbDescricao {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.dio .thumbVisualizacoes {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #515151;
+}
